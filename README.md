@@ -11,25 +11,25 @@ This Streamlit app simulates a real-time tracking system for public transport us
 <p align="center">
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" alt="Python" />
-  </a>&emsp;&emsp;
+  </a>&emsp;
   <a href="https://streamlit.io/">
     <img src="https://img.shields.io/badge/Streamlit-1.22-orange?logo=streamlit" alt="Streamlit" />
-  </a>&emsp;&emsp;
+  </a>&emsp;
   <a href="https://geopandas.org/">
     <img src="https://img.shields.io/badge/GeoPandas-0.14-teal?logo=geopandas" alt="GeoPandas" />
-  </a>&emsp;&emsp;
+  </a>&emsp;
   <a href="https://pydeck.gl/">
     <img src="https://img.shields.io/badge/pydeck-0.8-blue?logo=deck.gl" alt="pydeck" />
-  </a>&emsp;&emsp;
+  </a>&emsp;
   <a href="https://sqlite.org/">
     <img src="https://img.shields.io/badge/SQLite-3.39-lightgrey?logo=sqlite" alt="SQLite" />
-  </a>&emsp;&emsp;
+  </a>&emsp;
   <a href="https://shapely.readthedocs.io/">
     <img src="https://img.shields.io/badge/Shapely-2.1-green?logo=shapely" alt="Shapely" />
   </a>
 </p>
 
---
+---
 
 ![Main View](assets/main_view.png)  
 *Figure 1: Simulation of real-time vehicle positions on the municipal map.*
