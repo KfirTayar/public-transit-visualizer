@@ -1,8 +1,8 @@
 import streamlit as st
 import pydeck as pdk
-from utils.data_loader import load_data, make_time_picker
+from utils.data_loader import load_data
 from utils.route_utils import get_vehicle_route_in_muni, build_route_layers
-from utils.style_utils import color_and_legend, vehicle_route_tooltip
+from utils.style_utils import make_time_picker, color_and_legend, vehicle_route_tooltip
 from utils.map_utils import compute_centroid, get_muni_poly, spatial_filter
 
 st.set_page_config(page_title="City Pulse: Municipality Map", layout="wide", initial_sidebar_state="expanded")

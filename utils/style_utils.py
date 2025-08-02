@@ -1,5 +1,27 @@
 import random
 import pandas as pd
+import streamlit as st
+
+def make_time_picker(gdf_all: pd.DataFrame, date_str: str) -> pd.Timestamp:
+    """
+    Add a sidebar selectbox for selecting a time on a given date_str (YYYY-MM-DD). Returns a tz-aware pandas.Timestamp.
+    """
+    tz = gdf_all["recorded_at"].dt.tz
+    target = pd.Timestamp(date_str, tz=tz).normalize()
+
+    times = (
+        gdf_all[gdf_all["recorded_at"].dt.normalize() == target]
+        ["recorded_at"]
+        .dt.strftime("%H:%M:%S")
+        .sort_values()
+        .unique()
+        .tolist()
+    )
+
+    selected = st.sidebar.selectbox(f"Time on {date_str}", times)
+    h, m, s = map(int, selected.split(':'))
+
+    return target + pd.Timedelta(hours=h, minutes=m, seconds=s)
 
 def color_and_legend(df: pd.DataFrame, by: str) -> tuple[pd.DataFrame, dict, str]:
     """
