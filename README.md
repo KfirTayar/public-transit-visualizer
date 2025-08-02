@@ -24,6 +24,7 @@ This Streamlit app simulates a real-time tracking system for public transport us
 
 ---
 
+
 [Click here to view the live demo](<https://public-transit-visualizer.streamlit.app/>)
 
 ![Main View](assets/main_view.png)  
