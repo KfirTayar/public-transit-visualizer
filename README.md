@@ -9,24 +9,17 @@ This Streamlit app simulates a real-time tracking system for public transport us
 
 # Technologies
 <p align="center">
-  <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" alt="Python" />
-  </a>&emsp;
-  <a href="https://streamlit.io/">
+  &emsp;
     <img src="https://img.shields.io/badge/Streamlit-1.46.1-orange?logo=streamlit" alt="Streamlit" />
-  </a>&emsp;
-  <a href="https://geopandas.org/">
+  &emsp;
     <img src="https://img.shields.io/badge/GeoPandas-1.1.1-teal?logo=geopandas" alt="GeoPandas" />
-  </a>&emsp;
-  <a href="https://pydeck.gl/">
+  &emsp;
     <img src="https://img.shields.io/badge/pydeck-0.9.1-blue?logo=deckdotgl" alt="pydeck" />
-  </a>&emsp;
-  <a href="https://sqlite.org/">
+  &emsp;
     <img src="https://img.shields.io/badge/SQLite-3.42-lightgrey?logo=sqlite" alt="SQLite" />
-  </a>&emsp;
-  <a href="https://shapely.readthedocs.io/">
+  &emsp;
     <img src="https://img.shields.io/badge/Shapely-2.1.1-green" alt="Shapely" />
-  </a>
 </p>
 
 ---
