@@ -24,6 +24,10 @@ This Streamlit app simulates a real-time tracking system for public transport us
 
 ---
 
+## 🔗 Demo
+
+[Click here to view the live demo](<https://public-transit-visualizer.streamlit.app/>)
+
 ![Main View](assets/main_view.png)  
 *Figure 1: Simulation of real-time vehicle positions on the municipal map.*
 
