@@ -4,7 +4,7 @@ This Streamlit app simulates a real-time tracking system for public transport us
 ![Main View](assets/main_view.png)  
 *Figure 1: Main map view with real-time vehicle dots and legend.*
 
-![Route Tracing View](assets/route_tracing.png)  
+![Route Tracing View](assets/route_tracing_view.png)  
 *Figure 2: Route tracing for a selected vehicle.* 
 
 # Features
