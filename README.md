@@ -7,15 +7,31 @@ This Streamlit app simulates a real-time tracking system for public transport us
 3. Applied color‐coded filters on line_id, operator_id, vehicle_id, or speed.
 4. Queried and displayed the full route for a chosen vehicle within the current municipality.
 
+# Technologies
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" alt="Python" />
+  </a>
+  <a href="https://streamlit.io/">
+    <img src="https://img.shields.io/badge/Streamlit-1.22-orange?logo=streamlit" alt="Streamlit" />
+  </a>
+  <a href="https://geopandas.org/">
+    <img src="https://img.shields.io/badge/GeoPandas-0.14-teal?logo=geopandas" alt="GeoPandas" />
+  </a>
+  <a href="https://pydeck.gl/">
+    <img src="https://img.shields.io/badge/pydeck-0.8-blue?logo=deck.gl" alt="pydeck" />
+  </a>
+  <a href="https://sqlite.org/">
+    <img src="https://img.shields.io/badge/SQLite-3.39-lightgrey?logo=sqlite" alt="SQLite" />
+  </a>
+  <a href="https://shapely.readthedocs.io/">
+    <img src="https://img.shields.io/badge/Shapely-2.1-green?logo=shapely" alt="Shapely" />
+  </a>
+</p>
+
+
 ![Main View](assets/main_view.png)  
-*Figure 1: Main map view with real-time vehicle dots and legend.*
+*Figure 1: Simulation of real-time vehicle positions on the municipal map.*
 
 ![Route Tracing View](assets/route_tracing_view.png)  
-*Figure 2: Route tracing for a selected vehicle.* 
-
-# Technologies
-- Streamlit for the interactive web UI and in-memory caching.
-- SQLite as a lightweight on-disk database for vehicle pings.
-- Pandas and GeoPandas for tabular and spatial data manipulation.
-- Shapely for geometry operations.
-- PyDeck (Deck.GL) for GPU-accelerated map visualizations.
+*Figure 2: Route tracing for a selected vehicle.*
