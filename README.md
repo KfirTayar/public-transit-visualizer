@@ -9,26 +9,27 @@ This Streamlit app simulates a real-time tracking system for public transport us
 
 # Technologies
 <p align="center">
-  <a href="https://www.python.org/">
+  <a href="https://www.python.org/" style="margin: 0 15px;">
     <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" alt="Python" />
   </a>
-  <a href="https://streamlit.io/">
+  <a href="https://streamlit.io/" style="margin: 0 15px;">
     <img src="https://img.shields.io/badge/Streamlit-1.22-orange?logo=streamlit" alt="Streamlit" />
   </a>
-  <a href="https://geopandas.org/">
+  <a href="https://geopandas.org/" style="margin: 0 15px;">
     <img src="https://img.shields.io/badge/GeoPandas-0.14-teal?logo=geopandas" alt="GeoPandas" />
   </a>
-  <a href="https://pydeck.gl/">
+  <a href="https://pydeck.gl/" style="margin: 0 15px;">
     <img src="https://img.shields.io/badge/pydeck-0.8-blue?logo=deck.gl" alt="pydeck" />
   </a>
-  <a href="https://sqlite.org/">
+  <a href="https://sqlite.org/" style="margin: 0 15px;">
     <img src="https://img.shields.io/badge/SQLite-3.39-lightgrey?logo=sqlite" alt="SQLite" />
   </a>
-  <a href="https://shapely.readthedocs.io/">
+  <a href="https://shapely.readthedocs.io/" style="margin: 0 15px;">
     <img src="https://img.shields.io/badge/Shapely-2.1-green?logo=shapely" alt="Shapely" />
   </a>
 </p>
 
+---
 
 ![Main View](assets/main_view.png)  
 *Figure 1: Simulation of real-time vehicle positions on the municipal map.*
