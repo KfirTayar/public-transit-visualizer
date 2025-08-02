@@ -19,15 +19,18 @@ This Streamlit app simulates a real-time tracking system for public transport us
     <img src="https://img.shields.io/badge/GeoPandas-1.1.1-teal?logo=geopandas" alt="GeoPandas" />
   </a>&emsp;
   <a href="https://pydeck.gl/">
+    <!-- use deckdotgl as the logo slug -->
     <img src="https://img.shields.io/badge/pydeck-0.9.1-blue?logo=deckdotgl" alt="pydeck" />
   </a>&emsp;
   <a href="https://sqlite.org/">
     <img src="https://img.shields.io/badge/SQLite-3.42-lightgrey?logo=sqlite" alt="SQLite" />
   </a>&emsp;
   <a href="https://shapely.readthedocs.io/">
+    <!-- Shapely has no Simple Icons logo, so we omit the `logo=` param -->
     <img src="https://img.shields.io/badge/Shapely-2.1.1-green" alt="Shapely" />
   </a>
 </p>
+
 
 ---
 
